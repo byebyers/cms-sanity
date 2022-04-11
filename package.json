@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "cd sanity && sanity install && sanity build ../public/sanity -y && cd .. && next build",
-    "start": "vercel dev"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@portabletext/react": "^1.0.3",
