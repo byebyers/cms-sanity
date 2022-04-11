@@ -14,8 +14,7 @@
     "@sanity/desk-tool",
     "@sanity/production-preview",
     "iframe-pane",
-    "vercel-deploy",
-    "@sanity/dashboard"
+    "vercel-deploy"
   ],
   "env": {
     "development": {
