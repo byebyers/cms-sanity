@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && cd sanity && sanity build ../public/sanity -y ",
-    "start": "next start && cd sanity && sanity start"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@portabletext/react": "^1.0.3",
